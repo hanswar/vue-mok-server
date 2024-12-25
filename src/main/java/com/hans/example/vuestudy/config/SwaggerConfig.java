@@ -9,9 +9,9 @@ import io.swagger.v3.oas.models.info.Info;
 
 @Configuration
 public class SwaggerConfig {
-	
-	@Bean
-	public OpenAPI openAPI() {
+
+    @Bean
+    OpenAPI openAPI() {
 		return new OpenAPI()
 				.components(new Components())
 				.info(
